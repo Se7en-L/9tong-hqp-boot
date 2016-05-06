@@ -1,0 +1,37 @@
+#cboxOverlay,#cboxWrapper,#colorbox{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper{max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxBottomLeft,#cboxMiddleLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling:touch; border:5px solid #fff;}
+#cboxTitle{margin:0;}
+#cboxLoadingGraphic,#cboxLoadingOverlay{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxClose,#cboxNext,#cboxPrevious,#cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; display:block; margin:auto; max-width:none; border:0; -ms-interpolation-mode:bicubic;}
+.cboxIframe{display:block; margin:0; padding:0; width:100%; height:100%; border:0;}
+#cboxContent,#cboxLoadedContent,#colorbox{box-sizing:content-box;}
+#cboxOverlay{background:#000; opacity:.7; filter:alpha(opacity=70);}
+#colorbox{outline:0;}
+#cboxContent{overflow:visible; margin-top:2pc;}
+.cboxIframe{background:#fff;}
+#cboxError{padding:50px; border:0;}
+#cboxLoadingGraphic{background:url(../images/icon/loading.gif) no-repeat center center;}
+#cboxTitle{left:0; color:#000;}
+#cboxCurrent,#cboxTitle{position:absolute; top:-22px;}
+#cboxCurrent{right:205px; text-indent:-9999px;}
+#cboxClose,#cboxNext,#cboxPrevious,#cboxSlideshow{ position:fixed; overflow:visible; margin:0; padding:0; width:20px; height:20px; border:0; background:url(../images/icon/controls.png) no-repeat 0 0; text-indent:-9999px;}
+#cboxClose{top:0; right:0;}
+#cboxNext{top:50%; right:0;}
+#cboxPrevious,#cboxSlideshow{top:50%; left:0;}
+#cboxClose:active,#cboxNext:active,#cboxPrevious:active,#cboxSlideshow:active{outline:0;}
+#cboxPrevious{right:44px; background-position:0 0;}
+#cboxPrevious:hover{background-position:0 -25px;}
+#cboxNext{background-position:-25px 0;}
+#cboxNext:hover{background-position:-25px -25px;}
+#cboxClose{right:0; background-position:-50px 0;}
+#cboxClose:hover{background-position:-50px -25px;}
+.cboxSlideshow_off #cboxPrevious,.cboxSlideshow_on #cboxPrevious{right:66px;}
+.cboxSlideshow_on #cboxSlideshow{right:44px; background-position:-75px -25px;}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-75pt -25px;}
+.cboxSlideshow_off #cboxSlideshow{right:44px; background-position:-75pt 0;}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}

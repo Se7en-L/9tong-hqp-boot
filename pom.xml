@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jiutong</groupId>
+	<artifactId>9tong-hqp-boot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- spring 版本 -->
+		<org.springframework.version>4.0.5.RELEASE</org.springframework.version>
+
+		<!-- 私服仓库地址 -->
+		<repository_url>http://192.168.254.12:8081</repository_url>
+	</properties>
+
+	<dependencies>
+
+	</dependencies>
+
+	<modules>
+		<module>9tong-hqp-boot-admin</module>
+	</modules>
+</project>

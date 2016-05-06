@@ -1,0 +1,23 @@
+.preview{ float:left; height:465px; width:400px;}
+/* 小图 */
+.small_img{ background-color:#f0f0f0; float:left; height:52px; padding:6px 5px; position:relative; overflow:hidden; width:390px;}
+.scroll_button{ cursor:pointer; float:left; height:50px; overflow:hidden; position:relative; width:14px;}
+.scroll_button.small_img_up,.scroll_button.small_img_up.disabled{ background: url(../images/icon/lightbox_l.png) no-repeat;}
+.scroll_button.small_img_down,.scroll_button.small_img_down.disabled{ background:url(../images/icon/lightbox_r.png) no-repeat; margin-left:375px; margin-top:-50px;}
+
+.image_menu{ float:left; height:50px; margin-left:0; overflow:hidden; width:360px;}
+.image_menu li{ float:left; height:50px; overflow:hidden; text-align:center; width:60px;}
+.image_menu li img{width:50px; height:50px;cursor:pointer;}
+.image_menu li.onlick_img img,.image_menu li:hover img{ border:3px solid #959595; height:44px; object-fit:cover; object-position:center; width:44px;}
+
+/* 中图 */
+.big_img{ float:left; height:400px; overflow:hidden; position:relative; width:400px;}
+.big_img .mid_img{ height:400px; object-fit:cover; object-position:center; width:400px;}
+.big_img .win_selector{ height:210px; width:235px;}
+.win_selector{ background-color:#000; cursor:crosshair; filter:alpha(opacity=15); -moz-opacity:0.15; opacity:0.15; position:absolute;}
+
+/* 大图 */
+.big_view{ border:1px solid #959595; overflow:hidden; position:absolute; z-index:999;}
+.big_view img{ position:absolute;}
+
+.big_img_icon{ background:url(../images/icon/lightbox_big_img.png) no-repeat; display:block; height:32px; position:absolute; margin:365px 0 0 365px; width:32px; z-index:2;}

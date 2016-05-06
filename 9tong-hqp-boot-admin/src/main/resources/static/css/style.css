@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap{background-color:#2c2e2f; overflow-y:auto;}
+.cont{background-color:#eee; min-height:1000px;}
+.page_error{box-shadow:0 2px 15px 0 rgba(255,255,255,0.3);}
+
+.com_box{overflow-y:auto;}
+.com_thumbnail{margin-top:-100px;}
+.com_form_add_1 select{width:352px;}
+
+/* 表格图集 */
+table .pro_pic{width:110px;}
+table .pro_pic .big_pic{display:block; float:left; height:50px; margin:0 3px 3px 0; width:50px;}
+table .pro_pic img{height:50px; margin-bottom:3px; width:50px;}
+
+/* 主营分类 */
+.size_textarea_xlarge{height:150px; margin-bottom:10px; width:800px;}
+	/* 色块 */
+.com_color_block_1{background-color:#ededed; border:1px dashed #e0e0e0; padding:20px 0 20px 20px;}
+.com_color_block_title{margin:10px 0; font-weight:bold;}
+.block_list a{background-color:#f7f7f7; border:1px solid #4e549e; border-radius:2px; color:#4e549e; display:inline-block; height:26px; line-height:26px; margin:5px 5px 0 0; overflow:hidden; text-align:center; transition:all 0.1s ease 0s; width:90px;}
+.block_list a:hover{box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.3);}
+.block_list a.on{background-color:#4e549e; color:#fff;}
+
+.com_color_block_1 input{display:block; margin:3px 0 10px 0;}
+.com_form_add_title .tips{font-size:13px; padding-left:10px;}
+
+/* 群聊 */
+.group_chat .soso,.alignment .soso{text-align:right;}
+.group_chat_identity_1{background:url(../images/icon/qunzhu.png) no-repeat; display:inline-block; height:16px; width:16px;}
+.group_chat_identity_2{background:url(../images/icon/guanliyuan.png) no-repeat; display:inline-block; height:16px; width:16px;}
+	/* 设置管理员 */
+.asyncbox ul.text{margin-top:20px; height:84px;}
+.asyncbox ul.text li{height:35px; line-height:30px;}
+.asyncbox ul.text li input{margin-right:5px;}

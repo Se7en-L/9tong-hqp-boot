@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >  
+<mapper namespace="User">
+
+	<resultMap type="com.jiutong.hqp.manage.entity.user.User" id="UserResult">
+		<result column="username" property="username" jdbcType="VARCHAR" />
+		<result column="password" property="password" jdbcType="VARCHAR" />
+	</resultMap>
+
+	
+	<!-- 通过账号获得用户 -->
+	<select id="findUserByUsername"  resultType="com.jiutong.hqp.manage.entity.user.User" parameterType="String">
+		SELECT userName username ,password password FROM sysuser WHERE userName = #{username};
+	</select>
+	
+</mapper>
